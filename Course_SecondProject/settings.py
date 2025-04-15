@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django_extensions',
     'posts.apps.PostsConfig',
     'ontoone.apps.OntooneConfig',
+    'onetomany.apps.OnetomanyConfig',
+    'manytomany.apps.ManytomanyConfig',
 ]
 
 MIDDLEWARE = [
